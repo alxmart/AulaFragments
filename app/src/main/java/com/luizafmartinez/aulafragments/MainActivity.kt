@@ -79,7 +79,6 @@ class MainActivity : AppCompatActivity() {
         // No btnChamads.setOnClickListener,
         // comenta:   .replace(R.id.fragment_conteudo, ChamadasFragment())
         // Adiciona:  .remove(conversasFragment)  (Usa o objeto criado)
-
     }
 
     override fun onStart() {
