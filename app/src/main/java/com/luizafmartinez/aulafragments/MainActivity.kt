@@ -101,6 +101,7 @@ class MainActivity : AppCompatActivity() {
         Log.i("Ciclo de Vida", "Activity - onStop")
     }
 
+
     override fun onDestroy() {
         Log.i("Ciclo de Vida", "Activity - onDestroy")
         super.onDestroy()
